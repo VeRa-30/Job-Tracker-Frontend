@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+input, select, button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.job-item {
+  background-color: #eef2f7;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.job-item:hover {
+  background-color: #dde7f2;
+}
+
+.job-item strong {
+  font-size: 18px;
+}
+
+.job-item small {
+  display: block;
+  margin-top: 5px;
+  color: #555;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: crimson;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.delete-btn:hover {
+  background-color: darkred;
+}
+.badge {
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  color: white;
+}
+
+.Applied {
+  background-color: #007bff;
+}
+.Interview {
+  background-color: #17a2b8;
+}
+.Offer {
+  background-color: #28a745;
+}
+.Rejected {
+  background-color: #dc3545;
+}
+
